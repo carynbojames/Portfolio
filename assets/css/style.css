@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box; 
+}
+
+/* Header Section*/
+header {
+    display: flex;
+    /* creates space between h1 and list */
+    justify-content: space-between; 
+    /* center aligns both h1 and list */
+    align-items: center; 
+    background-color: black; 
+    color: white
+}
+
+header h1 {
+    font-size: 200%;
+    /* Shifts h1 slightly to the right */
+    padding-left: 8px;  
+}
+
+nav {
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /** ACTION: Add an action to remove the links once it shinks to a certain size **/
+}
+
+/* Color for the text needs to be at the anchor level and not the <ul> level */
+nav a {
+    color: white;
+    padding: 8px;
+}
+
+nav li:hover {
+    color: yellow;
+}
+
+/** ACTION: Add action to change the order when it shrinks. 
+When it shrinks, the top item should be my emphasized project and other work.
+Decide if about me or contact info should be next. **/
+
+.Primary-Image {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+/*About Me Section*/
+.About-Me h2 {
+    flex: 20%; 
+    text-align: right;
+    padding: 8px; 
+}
+
+.About-Me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.About-Me p {
+    flex: 80%;
+    border-left: solid; 
+    padding: 8px;
+}
+
+/*Work Section*/
+.Work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Work-Title {
+    flex: 20%;
+    text-align: right;
+    padding: 8px; 
+}
+
+.Work-Links {
+    flex: 80%;
+    border-left: solid;
+}
+
+/* Hover only applies to anchors <a> in class "Work" */
+.Work a:hover {
+    opacity: 0.5;   
+}
+
+/* Define the container of the featured work */
+.Work-Featured {
+    height: 300px;
+    margin: 20px;
+    border: solid;
+    position: relative;
+    background-image: url('assets/images/Phantom.jpg');
+    background-size: cover; 
+}
+
+.Work-Featured-Image {
+    height: 295px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.Work-Featured-Text-Box {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    background-color: black;
+    padding-left: 35px; 
+    padding-right: 35px; 
+}
+
+/* Define the container for all the work */
+/* Create and define a grid for the 4 other projects */
+.Work-Other {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    /* Previously, dimensions were here. It cut off the grids */
+}
+
+/* Define grid items */
+.Project {
+    height: 200px;
+    margin: 20px;
+    border: solid;
+    position: relative;
+}
+
+.Work-Other-Image {
+    height: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.Work-Other-Text-Box {
+    position: absolute;
+    bottom: 20px; 
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Contact-Me {
+    display: flex;
+}
+
+.Contact-Me h2 {
+    flex: 20%; 
+    text-align: right;
+    padding: 8px; 
+}
+
+.Contact-Me ul {
+    flex: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: solid;
+    padding: 8px;
+    list-style-type: none;
+}
+
+.Contact-Me li {
+    padding: 8px;
+}
+
+.Contact-Me a {
+    color: black;
+}
