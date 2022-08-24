@@ -184,8 +184,17 @@ Decide if about me or contact info should be next. **/
 }
 
 /* Media Queries */
+/* Resize and reorder for mobile */
 @media only screen and (max-width: 600px) {
     .Hero-Image {
         display: none;
+    }
+    .About-Me,
+    .Work,
+    .Contact-Me {
+        flex-direction: column;
+    }
+    .Work {
+        order: 2;
     }
 }
