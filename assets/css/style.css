@@ -98,10 +98,8 @@ Decide if about me or contact info should be next. **/
 
 .Work-Featured {
     /* Define the container */
-    height: 300px;
-    margin: 20px;
-    border: solid;
     /* Position reference for text box */
+    margin: 20px;
     position: relative;
     /*The flex code prevents the image from filling the sapce*/
     /*display: flex; 
@@ -116,14 +114,15 @@ Decide if about me or contact info should be next. **/
     min-width: 100%; 
     min-height: 100%;
     /*max-width: 100%;*/
+    border: solid black;
 }
 
 .Work-Featured-Text-Box {
     position: absolute;
     left: 0;
     bottom: 8%;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(27, 26, 26);
     padding-left: 35px; 
     padding-right: 35px; 
 }
@@ -139,26 +138,24 @@ Decide if about me or contact info should be next. **/
 
 /* Define grid items */
 .Project {
-    height: 200px;
     margin: 20px;
-    border: solid;
     position: relative;
 }
 
 .Work-Other-Image {
     height: 195px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    border: solid black;
 }
 
 .Work-Other-Text-Box {
     position: absolute;
+    left: 0; 
     bottom: 8%; 
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(27, 26, 26);
     padding-left: 20px;
     padding-right: 20px;
 }
