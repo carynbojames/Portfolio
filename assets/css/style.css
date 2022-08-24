@@ -39,6 +39,7 @@ nav a {
 nav li:hover {
     color: yellow;
 }
+/** ACTION: This needs to be addressed **/
 
 /** ACTION: Add action to change the order when it shrinks. 
 When it shrinks, the top item should be my emphasized project and other work.
@@ -54,16 +55,16 @@ Decide if about me or contact info should be next. **/
 }
 
 /*About Me Section*/
-.About-Me h2 {
-    flex: 20%; 
-    text-align: right;
-    padding: 8px; 
-}
-
 .About-Me {
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
+}
+
+.About-Me h2 {
+    flex: 20%; 
+    text-align: right;
+    padding: 8px; 
 }
 
 .About-Me p {
@@ -83,6 +84,7 @@ Decide if about me or contact info should be next. **/
     text-align: right;
     padding: 8px; 
 }
+/* Titles have opportunity to be simplied in code */
 
 .Work-Links {
     flex: 80%;
@@ -170,6 +172,7 @@ Decide if about me or contact info should be next. **/
     padding-right: 20px;
 }
 
+/* Contact Me Section */
 .Contact-Me {
     display: flex;
 }
@@ -182,11 +185,11 @@ Decide if about me or contact info should be next. **/
 
 .Contact-Me ul {
     flex: 80%;
+    padding: 8px;
+    border-left: solid;
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    border-left: solid;
-    padding: 8px;
-    list-style-type: none;
 }
 
 .Contact-Me li {
