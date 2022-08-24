@@ -128,7 +128,7 @@ Decide if about me or contact info should be next. **/
 
 .Work-Featured-Text-Box {
     position: absolute;
-    bottom: 20px;
+    bottom: 8%;
     color: black;
     background-color: white;
     padding-left: 35px; 
@@ -162,7 +162,7 @@ Decide if about me or contact info should be next. **/
 
 .Work-Other-Text-Box {
     position: absolute;
-    bottom: 20px; 
+    bottom: 8%; 
     text-align: center;
     color: white;
     background-color: black;
