@@ -79,6 +79,11 @@ Decide if about me or contact info should be next. **/
     flex-wrap: wrap;
 }
 
+/* Hover only applies to anchors <a> in class "Work" */
+.Work a:hover {
+    opacity: 0.5;   
+}
+
 .Work-Title {
     flex: 20%;
     text-align: right;
@@ -91,45 +96,31 @@ Decide if about me or contact info should be next. **/
     border-left: solid;
 }
 
-/* Hover only applies to anchors <a> in class "Work" */
-.Work a:hover {
-    opacity: 0.5;   
-}
-
-/* Define the container of the featured work */
-.Image {
+.Work-Featured {
+    /* Define the container */
     height: 300px;
     margin: 20px;
     border: solid;
+    /* Position reference for text box */
     position: relative;
-    display: flex;
+    /*The flex code prevents the image from filling the sapce*/
+    /*display: flex; 
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.Work-Featured {
-    position: relative;
+    align-items: center;*/ 
+    /*overflow: hidden;*/
 }
 
 .Work-Featured-Image {
-    flex-shrink: 0;
+   /* flex-shrink: 0; */
     height: 300px;
-    min-width: 100%;
+    min-width: 100%; 
     min-height: 100%;
-    max-width: 100%;
+    /*max-width: 100%;*/
 }
-/*
-.Work-Featured-Image {
-    height: 295px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-} */
 
 .Work-Featured-Text-Box {
     position: absolute;
+    left: 0;
     bottom: 8%;
     color: black;
     background-color: white;
@@ -142,7 +133,7 @@ Decide if about me or contact info should be next. **/
 .Work-Other {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
+    grid-gap: 1%;
     /* Previously, dimensions were here. It cut off the grids */
 }
 
