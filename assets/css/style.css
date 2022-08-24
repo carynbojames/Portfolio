@@ -40,7 +40,7 @@ nav a {
 When it shrinks, the top item should be my emphasized project and other work.
 Decide if about me or contact info should be next. **/
 
-.Primary-Image {
+.Hero-Image {
     height: 400px;
     width: 100%;
     min-height: 100%;
@@ -181,4 +181,11 @@ Decide if about me or contact info should be next. **/
 
 .Contact-Me a {
     color: black;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .Hero-Image {
+        display: none;
+    }
 }
