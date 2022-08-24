@@ -95,28 +95,42 @@ Decide if about me or contact info should be next. **/
 }
 
 /* Define the container of the featured work */
-.Work-Featured {
+.Image {
     height: 300px;
     margin: 20px;
     border: solid;
     position: relative;
-    background-image: url('assets/images/Phantom.jpg');
-    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
+.Work-Featured {
+    position: relative;
+}
+
+.Work-Featured-Image {
+    flex-shrink: 0;
+    height: 300px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+}
+/*
 .Work-Featured-Image {
     height: 295px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
-}
+} */
 
 .Work-Featured-Text-Box {
     position: absolute;
     bottom: 20px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding-left: 35px; 
     padding-right: 35px; 
 }
