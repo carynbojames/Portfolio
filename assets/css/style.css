@@ -186,15 +186,26 @@ Decide if about me or contact info should be next. **/
 /* Media Queries */
 /* Resize and reorder for mobile */
 @media only screen and (max-width: 600px) {
+    .header {
+        display: none;
+    }
+
     .Hero-Image {
         display: none;
+    }
+    .Work {
+        order: 2;
     }
     .About-Me,
     .Work,
     .Contact-Me {
         flex-direction: column;
+        align-items: center;
     }
-    .Work {
-        order: 2;
+    .About-Me p,
+    .Work-Links,
+    .Contact-Me ul {
+        border-left: none;
     }
+
 }
