@@ -194,7 +194,7 @@ Decide if about me or contact info should be next. **/
         display: none;
     }
     .Work {
-        order: 2;
+        order: 1;
     }
     .About-Me,
     .Work,
