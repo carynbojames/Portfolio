@@ -186,15 +186,8 @@ Decide if about me or contact info should be next. **/
 /* Media Queries */
 /* Resize and reorder for mobile */
 @media only screen and (max-width: 600px) {
-    .header {
-        display: none;
-    }
-
     .Hero-Image {
         display: none;
-    }
-    .Work {
-        order: 1;
     }
     .About-Me,
     .Work,
@@ -207,5 +200,4 @@ Decide if about me or contact info should be next. **/
     .Contact-Me ul {
         border-left: none;
     }
-
 }
