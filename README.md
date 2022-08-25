@@ -9,8 +9,8 @@ https://carynbojames.github.io/Portfolio/
 
 ## Objective
 The site has the developer's name, features one project, highlights other projects, provides links to the projects, and includes a method for contact
-![screenshot of deployed page] (assets/images/reference 01.png)
-![screenshot of deployed page] (assets/images/reference 02.png)
+![screenshot of deployed page] (assets/images/'reference 01'.png)
+![screenshot of deployed page] (assets/images/'reference 02'.png)
 
 ## Skills Developed
  - Flexbox
