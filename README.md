@@ -2,7 +2,9 @@
 Caryn Bo James Portflio
 
 ## Description
-This is a site built from scratch using HTML and CSS to create a first pass to share our portfolio for work. 
+    - Motivation: Build beginning skilsl to build a site from scratch using HTML and CSS
+
+    - Problem Statement: This is a site built from scratch using HTML and CSS to create a first pass to share our portfolio for work.
 
 ## Directions
 https://carynbojames.github.io/Portfolio/ 
